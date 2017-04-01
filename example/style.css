@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    padding: 1em;
+    font-size: 16px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 1em;
+  user-select: none;
+  cursor: pointer;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1em;
+}
+
+input {
+  padding: 10px;
+}

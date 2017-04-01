@@ -1,0 +1,16 @@
+{
+  "name": "virtual-dom",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "script": {
+      "start": "make start ; node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fast-dev": "github:kkdashu/fast-dev",
+    "chokidar": "^1.6.1",
+    "ws": "^2.2.2"
+  }
+}
