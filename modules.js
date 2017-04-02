@@ -19,6 +19,7 @@ function removeStyles(vnode) {
 function updateStyles(oldVnode, newVnode) {
   const oldStyle = oldVnode && oldVnode.data.style;
   const newStyle = newVnode && newVnode.data.style;
+  if (oldStyle === newStyle) return;
   if (!oldVnode || !oldStyle) {
     addStyles(newVnode);
   } else if (!newStyle) {
