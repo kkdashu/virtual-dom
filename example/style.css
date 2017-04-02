@@ -9,12 +9,12 @@ html, body {
     font-size: 16px;
 }
 
-ul{
+#todolist ul {
   margin: 0;
   padding: 0;
 }
 
-li {
+#todolist li {
   list-style: none;
   padding: 1em;
   user-select: none;
@@ -23,6 +23,6 @@ li {
   margin-bottom: 1em;
 }
 
-input {
+#todolist input {
   padding: 10px;
 }

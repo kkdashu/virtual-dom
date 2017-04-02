@@ -1,17 +1,7 @@
 import { updateProps, addProps } from './modules';
 import { isPrimitive, isArray, isUndef, isDef, isFunction, resolveChildren } from './helper';
 
-function vnode(tag, data = {}, children, text, elm) {
-  data = data || {};
-  return {
-    tag,
-    data,
-    children,
-    text,
-    elm
-  };
-}
-
+//vnode
 function h(tag, data) {
   let text = undefined, elm = undefined;
   let children = resolveChildren(Array.from(arguments).splice(2));
@@ -20,7 +10,14 @@ function h(tag, data) {
     children = undefined;
   }
   if (isFunction(tag)) return tag(data, children)
-  return vnode(tag, data, children, text, elm);
+  data = data || {};
+  return {
+    tag,
+    data,
+    children,
+    text,
+    elm
+  }
 }
 
 function createElement(vnode, $parent) {
