@@ -1,4 +1,3 @@
-/** @jsx h */
 import {h, patch, createElement } from './virtual-dom';
 import "./todolist"
 

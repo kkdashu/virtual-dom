@@ -1,4 +1,3 @@
-/** @jsx h */
 import { patch, h } from './virtual-dom';
 
 let oldVnode = undefined;
