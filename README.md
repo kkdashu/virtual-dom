@@ -16,7 +16,7 @@ make start
 
 打开浏览器输入 http://localhost:3000
 
-##Usage
+## Usage
 ```javascript
 
 import { path } from 'virtual-dom';
@@ -39,5 +39,5 @@ const vnode2 = (
 
 const container = document.getElementById('demo');
 path(undefined, vnode1, container);
-window.setTimeout(() => pathc(vnode1, vnode2), 1000);
+window.setTimeout(() => patch(vnode1, vnode2), 1000);
 ```
