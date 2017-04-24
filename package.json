@@ -12,5 +12,8 @@
     "fast-dev": "github:kkdashu/fast-dev",
     "chokidar": "^1.6.1",
     "ws": "^2.2.2"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1"
   }
 }
